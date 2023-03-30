@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptocorn</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav-inner-container">
+          <img src="assets/adaptive-icon.png" alt="logo" />
+
+          <div class="nav-links">
+            <a href="https://github.com/DevRajeshSingh/cryptoTrackerApp.git">
+              
+              Github
+              <svg width="1.2rem" height="1.2rem" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4" d="M29.344 30.477c2.404-.5 4.585-1.366 6.28-2.638C38.52 25.668 40 22.314 40 19c0-2.324-.881-4.494-2.407-6.332c-.85-1.024 1.636-8.667-.573-7.638c-2.21 1.03-5.45 3.308-7.147 2.805A20.712 20.712 0 0 0 24 7c-1.8 0-3.532.223-5.147.634C16.505 8.232 14.259 6 12 5.03c-2.26-.97-1.026 6.934-1.697 7.765C8.84 14.605 8 16.73 8 19c0 3.314 1.79 6.668 4.686 8.84c1.93 1.446 4.348 2.368 7.054 2.822m0 0c-1.159 1.275-1.738 2.486-1.738 3.632v8.717m11.343-12.534c1.097 1.44 1.646 2.734 1.646 3.88v8.654M6 31.215c.899.11 1.566.524 2 1.24c.652 1.075 3.074 5.063 5.825 5.063h4.177"/></svg>            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="hero-main-container">
+        <div class="hero-intro">
+          <h1>Cryptocorn</h1>
+          <p>
+            Track your crypto portfolio like a pro with Cryptocorn - the
+            ultimate crypto tracker app!
+          </p>
+          <button class="btn">
+            <a href="https://drive.google.com/file/d/1NahvzMwYqDL1fhGW7rynyB_so8OwBzxs/view">
+
+              Download
+              <svg   width="1.2rem" height="1.2rem" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M20 15a1 1 0 0 1 1 1v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a1 1 0 1 1 2 0v4h14v-4a1 1 0 0 1 1-1ZM12 2a1 1 0 0 1 1 1v10.243l2.536-2.536a1 1 0 1 1 1.414 1.414l-4.066 4.066a1.25 1.25 0 0 1-1.768 0L7.05 12.121a1 1 0 1 1 1.414-1.414L11 13.243V3a1 1 0 0 1 1-1Z"/></g></svg>
+            </svg>
+            
+          </a>
+
+          </button>
+        </div>
+        <div class="mobile-main-conrainer">
+          <div class="mobile-container">
+            <div class="body">
+              <div class="screen">
+                <div class="screen-img"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screeshots">
+        <h2 style="padding: 0 20px;">Screenshots</h2>
+        <div id="slider-container" class="slider">
+          <div class="slide">
+            <img src="assets/screenshots/screenshot1.jpg" alt="Image 1" />
+          </div>
+          <div class="slide">
+            <img src="assets/screenshots/screenshot2.jpg" alt="Image 2" />
+          </div>
+          <div class="slide">
+            <img src="assets/screenshots/screenshot3.jpg" alt="Image 3" />
+          </div>
+          <div class="slide">
+            <img src="assets/screenshots/screenshot4.jpg" alt="Image 4" />
+          </div>
+          <div class="slide">
+            <img src="assets/screenshots/screenshot5.jpg" alt="Image 5" />
+          </div>
+          <div class="slide">
+            <img src="assets/screenshots/screenshot6.jpg" alt="Image 6" />
+          </div>
+        </div>
+        <div onclick="prev()" class="control-prev-btn">
+          <svg width="100%" height="100%" viewBox="0 0 20 20">
+            <path
+              fill="currentColor"
+              d="m4 10l9 9l1.4-1.5L7 10l7.4-7.5L13 1z"
+            />
+          </svg>
+        </div>
+        <div onclick="next()" class="control-next-btn">
+          <svg width="100%" height="100%" viewBox="0 0 20 20">
+            <g transform="translate(20 0) scale(-1 1)">
+              <path
+                fill="currentColor"
+                d="m4 10l9 9l1.4-1.5L7 10l7.4-7.5L13 1z"
+              />
+            </g>
+          </svg>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="description">
+         
+            <h2>What is Cryptocorn?</h2>
+            <p>
+              Cryptocorn is a powerful crypto tracker app for websites designed to help cryptocurrency enthusiasts stay informed about the latest developments in the digital currency market. 
+              
+              <br>
+              <br>
+              This app provides users with up-to-date information on the prices, market capitalization, and trading volume of various cryptocurrencies, including Bitcoin, Ethereum, Litecoin, and many others.
+              With Cryptocorn, users can easily track their favorite cryptocurrencies.
+            </p>          
+       
+      </div>
+    </main>
+    <footer>
+     
+        <div class="sponser" style=" font-size: 1.2rem; position: absolute; bottom: 20px; text-align: center; width: 100%;">
+          Powered by <a target="_blank"
+          style="color: #2e94b0; text-decoration: none;font-weight: 500; "
+          href="https://www.coingecko.com">Coingecko</a>
+        </div>
+
+
+        <svg viewBox="0 0 1440 320" style="position: absolute; bottom: 0; left: 0; z-index: -1;">
+          <path fill="#5e5d5d" fill-opacity="1" d="M0,32L48,80C96,128,192,224,288,224C384,224,480,128,576,122.7C672,117,768,203,864,240C960,277,1056,267,1152,234.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+      
+    </footer>
+  </body>
+  <script>
+    function prev() {
+      document.getElementById("slider-container").scrollLeft -= 270;
+    }
+
+    function next() {
+      document.getElementById("slider-container").scrollLeft += 270;
+    }
+
+    const images = document.querySelectorAll(".slide img");
+    const overlay = document.querySelector(".overlay");
+
+    for (let i = 0; i < images.length; i++) {
+      images[i].addEventListener("click", function () {
+        overlay.classList.add("active");
+        const img = document.createElement("img");
+        img.src = images[i].src;
+        while (overlay.firstChild) {
+          overlay.removeChild(overlay.firstChild);
+        }
+        overlay.appendChild(img);
+      });
+    }
+
+    overlay.addEventListener("click", function () {
+      overlay.classList.remove("active");
+    });
+  </script>
+</html>
